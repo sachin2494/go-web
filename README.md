@@ -4,9 +4,9 @@ This is a simple website written in Golang. It uses the net/http package to serv
 
 ## Running the server
 
-'''
+```bash
 go run main.go
-'''
+```
 
 The server will start on port 7080. You can access it by navigating to http://localhost:7080 in your web browser.
 
