@@ -1,0 +1,67 @@
+/* Shared styles for all pages */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* Using a static PNG image as the background */
+    background-image: url('/static/bg.png'); /* Path to background image */
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center center;
+    background-attachment: fixed; /* Keeps background fixed while scrolling */
+    color: white; /* Default text color */
+}
+
+/* Add a semi-transparent overlay for better contrast between text and image */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    z-index: -1; /* Ensures overlay stays behind content */
+}
+
+/* Style for header */
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation bar */
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Main content area */
+main {
+    padding: 40px 20px;
+    text-align: center;
+    z-index: 10; /* Ensure text is above the overlay */
+}
+
+/* Footer style */
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
