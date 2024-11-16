@@ -1,4 +1,6 @@
 // Dependencies
-go 1.23.0
+module github.com/sachin2494/go-web
+
+go 1.23
 
 
