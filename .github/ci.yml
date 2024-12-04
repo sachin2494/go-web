@@ -1,0 +1,17 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'README.md'
+      - 'helm/**'
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Build
+      run: go buildf   
