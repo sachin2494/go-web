@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: go-web-container
-          image: samir274/gowebimage:{{ .Values.image.tag }}
+          image: samir274/go-web2:{{ .Values.image.tag }}
           ports:
           - containerPort: 7080    
