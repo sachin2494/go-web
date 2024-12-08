@@ -21,7 +21,7 @@ func homeHandler(w http.ResponseWriter, r *http.Request) {
 		<div class="overlay"></div>
 
 		<header>
-			<h1>Welcome o My Go Web Page</h1>
+			<h1>Welcome to My Go Web Page</h1>
 		</header>
 		<nav>
 			<a href="/">Home</a>
