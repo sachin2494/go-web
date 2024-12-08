@@ -27,11 +27,12 @@ func homeHandler(w http.ResponseWriter, r *http.Request) {
 			<a href="/">Home</a>
 			<a href="/about">About</a>
 			<a href="/contact">Contact</a>
+			<a href="/docs">docs</a>
 		</nav>
 		<main>
 			<h2>Welcome to my Page</h2>
 			<p>This is the page which we provide Tech releted stuff</p>
-			<Coming soon......!>
+			<p>Coming soon......!</p>
 		</main>
 		<footer>
 			<p>&copy; 2024 Course Hub</p>
